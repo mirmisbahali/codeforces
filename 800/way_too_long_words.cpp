@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main(void)
+{
+  int n;
+  string s;
+  cin >> n;
+  while (n--)
+  {
+    cin >> s;
+    if (s.length() < 10)
+    {
+      cout << s << endl;
+    }
+    else 
+    {
+      cout << s[0] << s.length() - 1 << s[s.length() - 1] << endl;
+    }
+  }
+}
