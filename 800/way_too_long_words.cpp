@@ -11,13 +11,14 @@ int main(void)
   while (n--)
   {
     cin >> s;
-    if (s.length() < 10)
+    if (s.length() > 10)
     {
-      cout << s << endl;
+      cout << s[0] << s.length() - 2 << s[s.length() - 1] << endl;
     }
     else 
     {
-      cout << s[0] << s.length() - 2 << s[s.length() - 1] << endl;
+      cout << s << endl;
+     
     }
   }
 }
