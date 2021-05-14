@@ -17,7 +17,7 @@ int main(void)
     }
     else 
     {
-      cout << s[0] << s.length() - 1 << s[s.length() - 1] << endl;
+      cout << s[0] << s.length() - 2 << s[s.length() - 1] << endl;
     }
   }
 }
